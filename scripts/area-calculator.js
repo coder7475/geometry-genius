@@ -26,6 +26,7 @@ function calculate(event) {
             break;
         case 'Ellipse':
             area = Math.PI * convFirst * convSecond;
+            break;
         default:
             return;
     }
