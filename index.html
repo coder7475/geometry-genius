@@ -17,8 +17,96 @@
     </header>
     <main>
         <div class="flex flex-col lg:flex-row mt-10">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <!-- card-1  -->
+            <div class="bg-base-100 shadow-xl border-b-slate-400">
+              <figure class="px-10 pt-10">
+                <img src="./images/triangle.png" alt="triangle" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Triangle</h2>
+                <code>Area(A) = 0.5 x b x h</code>
+                <div class="flex flex-row gap-2">
+                  <input type="number" name="base" id="base" class="border bg-slate-200 w-16 rounded-md" placeholder=" base"><small>cm</small>
+                  <input type="number" name="base" id="base" class="border bg-slate-200 w-16 rounded-md" placeholder=" height"><small>cm</small>
+                </div>
+                
+                <div class="card-actions mt-8">
+                  <button class="btn btn-primary w-56">Calculate</button>
+                </div>
+              </div>
+            </div>
+            <!-- card-2  -->
+            <div class="bg-base-100 shadow-xl border-b-slate-400">
+              <figure class="px-10 pt-10">
+                <img src="./images/rectangle.png" alt="rectangle" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Rectangle</h2>
+                <code>Area(A) = w x l</code>
+                <div class="flex flex-row gap-2">
+                  <input type="number" name="base" id="base" class="border bg-slate-200 w-16 rounded-md" placeholder=" width"><small>cm</small>
+                  <input type="number" name="base" id="base" class="border bg-slate-200 w-16 rounded-md" placeholder=" length"><small>cm</small>
+                </div>
+                <div class="card-actions mt-8">
+                  <button class="btn btn-primary w-56">Calculate</button>
+                </div>
+              </div>
+            </div>
+            <!-- card-3  -->
+            <div class="bg-base-100 shadow-xl border-b-slate-400">
+              <figure class="px-10 pt-14">
+                <img src="./images/parallelogram.png" alt="parallelogram" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Parallelogram</h2>
+                <code>Area(A) =  b x h</code>
+                <div class="flex flex-row gap-2">
+                  <input type="number" name="base" id="base" class="border bg-slate-200 w-16 rounded-md" placeholder=" base"><small>cm</small>
+                  <input type="number" name="base" id="base" class="border bg-slate-200 w-16 rounded-md" placeholder=" height"><small>cm</small>
+                </div>
+                <div class="card-actions mt-8">
+                  <button class="btn btn-primary w-56">Calculate</button>
+                </div>
+              </div>
+            </div>
+            <!-- card-4  -->
+            <div class="bg-base-100 shadow-xl border-b-slate-400">
+              <figure class="px-20 pt-10">
+                <img src="./images/triangle.png" alt="triangle" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Triangle</h2>
+                <code>Area(A) = 0.5 x b x h</code>
+                <div class="flex flex-row gap-2">
+                  <input type="number" name="base" id="base" class="border bg-slate-200 w-16 rounded-md" placeholder=" base"><small>cm</small>
+                  <input type="number" name="base" id="base" class="border bg-slate-200 w-16 rounded-md" placeholder=" height"><small>cm</small>
+                </div>
+                
+                <div class="card-actions mt-8">
+                  <button class="btn btn-primary w-56">Calculate</button>
+                </div>
+              </div>
+            </div>
+            <!-- card-5  -->
+            <div class="bg-base-100 shadow-xl border-b-slate-400">
+              <figure class="px-20 pt-10">
+                <img src="./images/triangle.png" alt="triangle" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Triangle</h2>
+                <code>Area(A) = 0.5 x b x h</code>
+                <div class="flex flex-row gap-2">
+                  <input type="number" name="base" id="base" class="border bg-slate-200 w-16 rounded-md" placeholder=" base"><small>cm</small>
+                  <input type="number" name="base" id="base" class="border bg-slate-200 w-16 rounded-md" placeholder=" height"><small>cm</small>
+                </div>
+                
+                <div class="card-actions mt-8">
+                  <button class="btn btn-primary w-56">Calculate</button>
+                </div>
+              </div>
+            </div>
+            <!-- card-6  -->
             <div class="bg-base-100 shadow-xl border-b-slate-400">
               <figure class="px-20 pt-10">
                 <img src="./images/triangle.png" alt="triangle" class="rounded-xl" />
@@ -37,7 +125,7 @@
               </div>
             </div>
           </div>
-          <div class="w-1/4">
+          <div class="w-1/4 text-center">
             <u>Area Calculation</u>
             <ul id="list"></ul>
           </div>
