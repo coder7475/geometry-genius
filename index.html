@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+      <nav>
+        <h1 class="text-center font-bold text-3xl">Geometry Genius</h1>
+      </nav>
+    </header>
+    <main>
+        <div class="flex flex-col lg:flex-row mt-10">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <!-- card-1  -->
+            <div class="bg-base-100 shadow-xl border-b-slate-400">
+              <figure class="px-20 pt-10">
+                <img src="./images/triangle.png" alt="triangle" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Triangle</h2>
+                <code>Area(A) = 0.5 x b x h</code>
+                <div class="flex flex-row gap-2">
+                  <input type="number" name="base" id="base" class="border bg-slate-200 w-16 rounded-md" placeholder=" base"><small>cm</small>
+                  <input type="number" name="base" id="base" class="border bg-slate-200 w-16 rounded-md" placeholder=" height"><small>cm</small>
+                </div>
+                
+                <div class="card-actions">
+                  <button class="btn btn-primary w-56">Calculate</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-1/4">
+            <u>Area Calculation</u>
+            <ul id="list"></ul>
+          </div>
+        </div>
+    </main>
+    <script src="scripts/area-calculator.js"></script>
+</body>
+
+</html>
